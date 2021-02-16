@@ -13,7 +13,6 @@ function App() {
                 {/* /checkout/:anything/page */}
                 <Header/>
                 <CheckOut/>
-                <h1>CheckOut</h1>
                 </Route>
                 <Route path="/login">
                   <h1>Login Page</h1>

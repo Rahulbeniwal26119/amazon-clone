@@ -6,7 +6,9 @@ import {data} from './data';
 function Home() {
 
   var itemData1 = data.slice(0 , 2).map((dataElement)=>(
-    <Product key={dataElement.id}
+    <Product
+      id={dataElement.id}
+      key={dataElement.id}
       title={dataElement.title}
       price={dataElement.price}
       rating={dataElement.rating}
@@ -16,6 +18,7 @@ function Home() {
 
   var itemData2 = data.slice(2 , 5).map((dataElement)=>(
     <Product key={dataElement.id}
+      id={dataElement.id}
       title={dataElement.title}
       price={dataElement.price}
       rating={dataElement.rating}
@@ -25,6 +28,7 @@ function Home() {
 
   var itemData3 = data.slice(5 , 7).map((dataElement)=>(
     <Product key={dataElement.id}
+      id={dataElement.id}
       title={dataElement.title}
       price={dataElement.price}
       rating={dataElement.rating}
@@ -34,6 +38,7 @@ function Home() {
 
   var itemData4 = data.slice(7 , 9).map((dataElement)=>(
     <Product key={dataElement.id}
+      id={dataElement.id}
       title={dataElement.title}
       price={dataElement.price}
       rating={dataElement.rating}
@@ -43,6 +48,7 @@ function Home() {
 
   var itemData5 = data.slice(9).map((dataElement)=>(
     <Product key={dataElement.id}
+      id={dataElement.id}
       title={dataElement.title}
       price={dataElement.price}
       rating={dataElement.rating}

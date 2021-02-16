@@ -33,11 +33,23 @@
   object-fit : contain;
   margin-bottom: 15px;
 }
-.product > button
+.footer > button
 {
   background-color : #f0c14b;
     border: 1px solid;
     border-color : #a88734 , #9c7e31 , #846a29;
       color: #111;
     margin-top: 10px;
+}
+.quantity
+{
+
+  display : flex;
+  justify-content : space-between;
+}
+.footer
+{
+  display:  flex;
+  width : 100%;
+  justify-content : space-between ;
 }

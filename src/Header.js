@@ -22,37 +22,37 @@ function Header() {
     {/* These three are under developement uncomment these to see the layout  */}
 
     {/* Search Box */}
-    <div className="header_search">
+    {/* <div className="header_search">
       <input type="text" className="header_searchInput"/>
       <SearchIcon className="header_searchIcon"/>
-    </div>
+    </div> */}
 
 
     <div className="header_nav">
 
       {/* 1st link  ------Under Development*/}
-      <Link to="/login" className="header_link">
+      {/* <Link to="/login" className="header_link">
         <div className="header_option">
           <span  className="header_optionLineOne">Hello Rahul</span>
           <span  className="header_optionLineTwo" >Sign In</span>
         </div>
-      </Link>
+      </Link> */}
 
       {/* 2nd link ------Under Development*/}
-      <Link to="/" className="header_link">
+      {/* <Link to="/" className="header_link">
         <div className="header_option">
           <span  className="header_optionLineOne">Return</span>
           <span  className="header_optionLineTwo" >& Orders</span>
         </div>
-      </Link>
+      </Link> */}
 
       {/* 3rd link ------Under Development*/}
-      <Link to="/" className="header_link">
+      {/* <Link to="/" className="header_link">
         <div className="header_option">
           <span  className="header_optionLineOne">Your</span>
           <span  className="header_optionLineTwo" >Prime</span>
         </div>
-      </Link>
+      </Link> */}
 
       {/* 4th Link */}
       <Link to="/checkout" className="header_link">

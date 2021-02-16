@@ -5,7 +5,7 @@ import {data} from './data';
 
 function Home() {
 
-  var itemData1 = data.slice(0 , 2).map((dataElement)=>(
+  var itemRow1 = data.slice(0 , 2).map((dataElement)=>(
     <Product
       id={dataElement.id}
       key={dataElement.id}
@@ -16,7 +16,7 @@ function Home() {
       />
   ))
 
-  var itemData2 = data.slice(2 , 5).map((dataElement)=>(
+  var itemRow2 = data.slice(2 , 5).map((dataElement)=>(
     <Product key={dataElement.id}
       id={dataElement.id}
       title={dataElement.title}
@@ -26,7 +26,7 @@ function Home() {
       />
   ))
 
-  var itemData3 = data.slice(5 , 7).map((dataElement)=>(
+  var itemRow3 = data.slice(5 , 7).map((dataElement)=>(
     <Product key={dataElement.id}
       id={dataElement.id}
       title={dataElement.title}
@@ -36,7 +36,7 @@ function Home() {
       />
   ))
 
-  var itemData4 = data.slice(7 , 9).map((dataElement)=>(
+  var itemRow4 = data.slice(7 , 9).map((dataElement)=>(
     <Product key={dataElement.id}
       id={dataElement.id}
       title={dataElement.title}
@@ -46,7 +46,7 @@ function Home() {
       />
   ))
 
-  var itemData5 = data.slice(9).map((dataElement)=>(
+  var itemRow5 = data.slice(9).map((dataElement)=>(
     <Product key={dataElement.id}
       id={dataElement.id}
       title={dataElement.title}
@@ -61,19 +61,19 @@ return (<div className="home">
     src={require("./Banner.png").default}
   />
   <div className="home_row">
-    {itemData1}
+    {itemRow1}
   </div>
   <div className="home_row">
-    {itemData2}
+    {itemRow2}
   </div>
   <div className="home_row">
-    {itemData3}
+    {itemRow3}
   </div>
   <div className="home_row">
-    {itemData4}
+    {itemRow4}
   </div>
   <div className="home_row">
-    {itemData5}
+    {itemRow5}
   </div>
 </div>)
 }

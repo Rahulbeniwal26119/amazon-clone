@@ -13,7 +13,6 @@ function Product({id , title , image , price , rating}) {
   const [{basket} , dispatch] = useStateValue();
   const addToBasket = () => {
 
-    console.log(quantity);
     // add a item to basket
     dispatch({
       type: "ADD_TO_BASKET",
@@ -27,7 +26,6 @@ function Product({id , title , image , price , rating}) {
     backupQuantity = null;
     let value = e.target.value;
     setQantity(value);
-    console.log(quantity);
   }
   var backup = basket.filter((basketItem)=> basketItem.id === id);
 

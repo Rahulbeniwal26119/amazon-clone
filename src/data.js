@@ -1,3 +1,4 @@
+//10 items data 
 export const  data = [
   {
     id : "848484801",

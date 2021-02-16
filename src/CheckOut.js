@@ -8,15 +8,18 @@ function CheckOut() {
 
   return (
     <div className="checkout">
+
       <img className="checkout_ad"
          src={require("./discountBanner.jpg").default}
     />
-    {basket?.length === 0 ? (
-      <div>
+
+    {
+      basket?.length === 0 ?
+       (<div>
         <h2> Your Shopping Bucket is empty</h2>
       </div>
-    ) : (
-      <div>
+    ) :
+        (<div>
         <h2> Your Shopping Bucket</h2>
         {/* List all the all checkout item */}
         {basket?.map(item => (
@@ -31,7 +34,6 @@ function CheckOut() {
         ))}
       </div>
     )}
-    <h1>Beniwal</h1>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+// use to display the items in the cart 
 import React from 'react'
 import './checkoutproduct.css'
 import useStateValue from './DataLayer';

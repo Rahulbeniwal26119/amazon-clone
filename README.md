@@ -1,5 +1,6 @@
 # Amazon like website created with the help of react
 
+## Live  : <a href="https://serene-borg-fc3c10.netlify.app/"> Amazon Clone</a>
 
 
 
